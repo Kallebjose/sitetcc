@@ -1,0 +1,310 @@
+@font-face {
+  font-family: poggers;
+  src: url(UberMoveTextRegular.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poggers;
+	display: flex;
+    flex-direction: column;
+}
+
+.divForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forms{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+	margin-bottom: 20px;
+}
+
+header{
+    background-color: #ffd200;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+	bottom: 0;
+	text-align: center;
+	margin: 0;
+
+}
+
+.gordo{
+font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: center;
+    top: 50%;
+    right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: none; 
+}
+
+}
+
+.logo img {
+    display: block; 
+    width: 100px;
+    height: auto; 
+}
+
+
+footer {
+    background-color: #ffd200; 
+    color: #fff;
+    padding: 10px 0; 
+    text-align: center;
+    bottom: 0;
+	position: relative;
+	margin: 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+footer ul li:last-child {
+    margin-right: 0; 
+}
+
+footer ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.onibusao{
+height: 700px;
+width: auto;
+}
+
+.onibus{
+display: flex;
+flex-direction: row;
+justify-content: space-between;	
+}
+
+.texto_sobre{
+text-align:center;
+display: flex;
+flex-direction: column;
+justify-content: center;	
+width:100%;
+align-items: center;
+align-content: center;
+flex-wrap: wrap;
+height: 600px;
+}
+
+.txt_sobre{
+	display: flex;
+	justify-content:center;
+	width: 800px;
+	flex-wrap: wrap;
+}
+
+.trabalho{
+display: flex;
+flex-direction: row;
+}
+
+.texto_trabalho{
+width:100%;
+text-align:center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.barradiv{
+	display: flex;
+	justify-content: center;
+	
+	width: 100%;
+	background-color: #ffd200;
+}
+
+.barra{
+display: flex;
+justify-content:center;
+position: relative;
+flex-direction: column;
+align-items:center;
+}
+
+.barra2{
+width:400px;
+height:auto;	
+}
+
+.funcao{
+flex-direction: row;
+justify-content: space-between;	
+text-align:center;
+display: flex;
+margin-top: -5px;
+margin-bottom: -5px;
+}
+
+.logo_longa{
+width: 600px;
+height: auto;
+justify-content:center;	
+margin: 20px auto 0;
+}
+
+.vantagens{
+width: 600px;	
+height: auto;
+}	
+
+.funcionamento{
+width: 900px;
+height: auto;
+}
+
+.feedbacks{
+width:650px;
+height: auto;
+}
+
+.sobre_nos{
+width:600px;
+height:auto;
+}
+
+.nossa_missao{
+width:650px;
+height:auto;
+}
+
+.barra_esq{
+width:337.5px;
+height:100px;	
+}
+
+.beneficios{
+text-align:center;
+display: flex;
+flex-direction: column;
+justify-content: center;	
+width:800px;
+align-items: center;
+}
+
+.barra_esq{
+width:300px;
+height: auto;
+margin: 0;
+}
+
+.barra_esq img{
+height: 100%;
+width: 100%;
+object-fit: contain;
+margin: 0px;
+}
+
+.titulo{
+margin-top: 80px;	
+}
+
+.faqs{
+flex-direction: row-reverse;
+justify-content: space-between;	
+text-align:center;
+display: flex;
+margin-top: -5px;
+margin-bottom: -5px;
+}
+
+.perguntas{
+text-align:center;
+display: flex;
+flex-direction: column;
+justify-content: center;	
+width:1000px;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.barra_direita{
+width:350px;
+height: auto;
+margin: 0;
+}
+
+.barra_direita img{
+height: 100%;
+width: 100%;
+object-fit: contain;
+margin: 0px;
+}
+
+.cadastro{
+width:700px;
+height:180px;
+background: #ffd200;
+padding: 20px;
+border: 5px solid #000;
+border-radius: 80px;
+}
+
+.seguro{
+width:700px;
+height:150px;
+background: #ffd200;
+padding: 20px;
+border: 5px solid #000;
+border-radius: 80px;
+}
+
+.satisfeito{
+width:700px;
+height:180px;
+background: #ffd200;
+padding: 20px;
+border: 5px solid #000;
+border-radius: 80px;
+}
+.contato{
+width:700px;
+height:200px;
+background: #ffd200;
+padding: 20px;
+border: 5px solid #000;
+border-radius: 80px;
+}
+
+.divForm{
+text-align:center;
+}
